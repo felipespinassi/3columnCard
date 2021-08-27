@@ -94,6 +94,10 @@ button{
 }
 
 @media screen and (max-width: 580px){
+
+	body{
+		align-items: start;
+	}
 	.conteudoprincipal{
 		width: 100%;
 		flex-direction: column;
