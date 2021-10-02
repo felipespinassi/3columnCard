@@ -1,11 +1,31 @@
 
 body{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	background-color: #fff;
 	align-items: center;
 	min-height: 100vh;
-	background-color:#484848;
+}
+
+.button_dark{
+	padding: 1rem 1rem;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: hsl(179, 100%, 13%);
+	color: #fff;
+	margin-bottom: 5rem;
+
+}
+
+.button_dark:hover{
+	background-color: hsl(184, 100%, 22%);
+}
+
+
+.dark_mode{
+	background-color:#484848 ;
 }
 
 
@@ -52,7 +72,7 @@ p{
 	color: hsl(179, 100%, 13%, 0.60);
 }
 
-button{
+.botao1 , .botao2 , .botao3{
 	font-family: 'Lexend Deca';
 	border-radius: 2rem;
 	font-size: 1rem;
@@ -115,6 +135,8 @@ button{
 		border-radius: 0;
 
 	}
+
+
 }
 
 @media screen and (max-width: 1000px){
