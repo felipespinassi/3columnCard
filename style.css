@@ -28,6 +28,14 @@ body{
 	background-color:#484848 ;
 }
 
+.color_dark{
+	color: #1a1919;
+}
+
+.button_dark_saberMais{
+	background-color: #484848;
+	color: #fff;
+}
 
 .conteudoprincipal{
 	width: 100%;
@@ -59,20 +67,8 @@ p{
 	letter-spacing: 1.25px;
 }
 
-.botao1{
-	color: hsl(31, 77%, 52%, 0.60)
 
-}
-
-.botao2{
-	color: hsl(184, 100%, 22%, 0.60);
-}
-
-.botao3{
-	color: hsl(179, 100%, 13%, 0.60);
-}
-
-.botao1 , .botao2 , .botao3{
+.button_saibaMais {
 	font-family: 'Lexend Deca';
 	border-radius: 2rem;
 	font-size: 1rem;
